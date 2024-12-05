@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html class="page" lang="ru">
+
+@@include('./src/html/includes/head.html', {
+  "title": "Конвертер римских чисел",
+  "description": "Конвертер римских чисел."
+})
+
+<body class="page__body">
+  <main class="page__main">
+    <h1 class="visually-hidden">Конвертер римских чисел</h1>
+
+    <section class="page__converter converter">
+      <input class="converter__input" type="text" placeholder="Введите число"><output class="converter__output"></output>
+    </section>
+  </main>
+
+  <footer class="page__footer">
+    <p class="about">
+      <a class="about__link" href="https://github.com/alt-xafiro/roman-nums">GitHub</a>
+      • <a class="about__link" href="https://github.com/alt-xafiro/roman-nums/blob/master/CHANGELOG.md">vI.I.I</a>
+    </p>
+  </footer>
+
+  <script src="js/script.min.js"></script>
+</body>
+
+</html>
